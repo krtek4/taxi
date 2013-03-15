@@ -24,7 +24,7 @@ Installation
     a. **Clone:** 
 
             $ cd ~/.vim/bundle
-            $ git clone -b vim --single-branch git clone -b mybranch --single-branch git://sub.domain.com/repo.git
+            $ git clone -b vim --single-branch git clone -b mybranch --single-branch git://github.com/sephii/taxi.git
 
     b. **Move:**
 
