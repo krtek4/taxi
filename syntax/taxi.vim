@@ -27,7 +27,7 @@ syn match   taxiIncompleteHours   "-?" nextgroup=taxiDesc skipwhite
 syn match   taxiSent    "^#.*"
 
 " match a line
-syn match taxiLine  "^[a-zA-z_]\+" nextgroup=taxiCompleteHours skipwhite
+syn match taxiLine  "^[a-zA-z]\+[a-zA-Z0-9_]*" nextgroup=taxiCompleteHours skipwhite
 
 " Define the default highlighting.
 hi def link    taxiDay                 Special
